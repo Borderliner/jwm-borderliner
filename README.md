@@ -5,7 +5,7 @@ I've included a script file (install.sh) to install this config, plus it's neces
 
 #How do I install this?<br>
 Clone this repo, cd into it, execute `./install.sh` to run the script (DO NOT RUN IT AS ADMIN, IF YOU DO, IT WILL INSTALL TO /root/.jwmrc)<br>
-It is <b>STRONGLY RECOMMENDED<b> to install Xfce components, which is prompt during the installation process.<br><br>
+It is <b>STRONGLY RECOMMENDED to install Xfce components</b>, which is prompt during the installation process.<br><br>
 
 #Key Bindings<br><br>
 
@@ -24,3 +24,4 @@ Alt + Ctrl + T => Start Terminal<br>
 Ctrl + Shift + Escape => Show Task Manager (xfce4-taskmanager)<br><br>
 
 <a href="mailto:psyringe@protonmail.com">Psyringe<a>
+
