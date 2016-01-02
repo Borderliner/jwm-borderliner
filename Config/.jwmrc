@@ -162,6 +162,8 @@
     <StartupCommand>
         nm-applet &
         pa-applet &
+        xset r rate 250 50
+        setxkbmap -layout us,ir -option grp:alt_shift_toggle
     </StartupCommand>
     
     <RestartCommand>
@@ -169,6 +171,8 @@
         pkill pa-applet
         nm-applet &
         pa-applet &
+        xset r rate 250 50
+        setxkbmap -layout us,ir -option grp:alt_shift_toggle
     </RestartCommand>
 
     <!-- Key bindings -->
