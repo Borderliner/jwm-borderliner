@@ -21,12 +21,14 @@ Alt + Ctrl + LeftArrow => Switch to the Left Desktop<br>
 Alt + Ctrl + UpArrow => Switch to the Up Desktop<br>
 Alt + Ctrl + DownArrow => Switch to the Bottom Desktop<br>
 Alt + Ctrl + T => Start Terminal<br>
+Alt + Ctrl + X => Start XKill<br>
 Ctrl + Shift + Escape => Show Task Manager (xfce4-taskmanager)<br><br>
 
 #Keyboard Setup<br>
 
 If you want to change the keyboard layout, open the .jwmrc file and navigate to line 166 and 175. Change the `ir` to whatever you like (`ir` is Iran, I use this for myself)<br>
-If you wish to change the repeat rate, open .jwmrc file, go to line 165 and 174, change the rates there.<br><br>
+If you wish to change the repeat rate, open .jwmrc file, go to line 165 and 174, change the rates there.<br>
+Edit .xxkbrc to change flag settings<br><br>
 
 <a href="mailto:psyringe@protonmail.com">Psyringe<a>, 2016
 
