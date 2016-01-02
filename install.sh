@@ -16,8 +16,14 @@ git clone https://github.com/gapan/xdgmenumaker.git
 cd xdgmenumaker
 make
 sudo make install
-echo "Installing necessary xorg and xfce components..."
-sudo pacman -S --needed --noconfirm xorg-xprop xorg-xwininfo mousepad xlockmore xorg-xclock xfce4-terminal thunar network-manager-applet pa-applet feh
+echo "Installing necessary xorg and other components..."
+sudo pacman -S --needed --noconfirm xorg-xprop xorg-xwininfo xlockmore xorg-xclock network-manager-applet pa-applet feh
+read -p "Should I install some Xfce components? (e.g. Thunar, Orage, Terminal...) (y/n)?" choice
+case "$choice" in 
+  y|Y|Yes ) sudo pacman -S --needed --noconfirm mousepad xfce4-terminal thunar orage;;
+  n|N|No ) echo "Continuing installation without Xfce components...";;
+  * ) echo "Invalid choice, defaulting with NO";;
+esac
 echo "Copying config files..."
 cd "$current_dir"/Config/
 cp -a . ~/
