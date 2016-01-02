@@ -2,7 +2,7 @@
 <JWM>
 
     <!-- The root menu. -->
-    <RootMenu onroot="12">
+    <RootMenu onroot="23">
         <Program icon="terminal.png" label="Terminal">xfce4-terminal</Program>
         <Menu icon="folder.png" label="Utilities">
             <Program icon="font.png" label="Fonts">xfontsel</Program>
@@ -51,9 +51,9 @@
         <Spacer width="4"/>
         <TrayButton label="#">showdesktop</TrayButton>
         <Spacer width="4"/>
-	    <TrayButton label="Th">exec: thunar</TrayButton>
-	    <TrayButton label="Ch">exec: chromium</TrayButton>
-	    <TrayButton label="Xt">exec: xfce4-terminal</TrayButton>
+	    <TrayButton label="FM">exec: thunar</TrayButton>
+	    <TrayButton label="BR">exec: firefox</TrayButton>
+	    <TrayButton label="XT">exec: xfce4-terminal</TrayButton>
 	    <Spacer width="4"/>
 
         <Pager labeled="true"/>
@@ -63,8 +63,11 @@
         <Dock/>
 	    <Spacer width="4"/>
         <Clock format="| %Y/%m/%d %A - %H:%M"><Button mask="123">exec:orage</Button></Clock>
-        <Spacer width="4"/>
-        <TrayButton label="Psyringe"></TrayButton>
+        
+        <!-- IF YOU LIKE TO HAVE YOUR USERNAME IN THE DOCK, UNCOMMENT FOLLOWING 2 LINES.
+        
+        <!-- <Spacer width="4"/> -->
+        <!-- <TrayButton label="Psyringe"></TrayButton> -->
     </Tray>
 
     <!-- Visual Styles -->
