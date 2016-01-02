@@ -1,0 +1,26 @@
+XXkb.image.path: /home/psyringe/.config/xxkb
+
+XXkb.group.base: 1
+XXkb.group.alt: 2
+
+
+XXkb.mainwindow.type: tray
+XXkb.mainwindow.enable: yes
+XXkb.mainwindow.appicon: yes
+XXkb.mainwindow.border.width: 1
+XXkb.mainwindow.label.enable: no
+XXkb.mainwindow.border.color: white
+XXkb.mainwindow.geometry: 20x20+0+0
+XXkb.mainwindow.image.1: us.xpm
+XXkb.mainwindow.image.2: ir.xpm
+XXkb.mainwindow.image.3: 
+XXkb.mainwindow.image.4: 
+XXkb.mainwindow._delete: no
+
+XXkb.button.enable: no
+
+XXkb.controls.focusout: no
+XXkb.controls.two_state: no
+XXkb.controls.add_when_start: yes
+XXkb.controls.add_when_create: yes
+XXkb.controls.add_when_change: no

@@ -199,6 +199,8 @@
     <Key mask="AC" key="Up">udesktop</Key>
     <Key mask="AC" key="Down">ddesktop</Key>
     <Key mask="AC" key="T">exec: xfce4-terminal</Key>
+    <Key mask="AC" key="X">exec: xkill</Key>
     <Key mask="CS" key="Escape">exec: xfce4-taskmanager</Key>
+    
 
 </JWM>

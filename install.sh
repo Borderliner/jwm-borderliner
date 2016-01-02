@@ -25,7 +25,7 @@ cd xdgmenumaker
 make
 sudo make install
 echo "Installing necessary xorg and other components..."
-sudo pacman -S --needed --noconfirm xorg-xprop xorg-xwininfo xlockmore xorg-xclock network-manager-applet pa-applet feh
+sudo pacman -S --needed --noconfirm xorg-xprop xorg-xwininfo xlockmore xorg-xclock network-manager-applet pa-applet xorg-xkill xxkb feh
 read -p "Should I install some Xfce components? (e.g. Thunar, Orage, Terminal...) (y/n)?" choice
 case "$choice" in 
   y|Y|Yes ) sudo pacman -S --needed --noconfirm mousepad xfce4-terminal xfce4-taskmanager thunar orage;;
@@ -34,7 +34,7 @@ case "$choice" in
 esac
 echo "Copying config files..."
 cd "$current_dir"/Config/
-cp -a . ~/
+cp -rfa . ~/
 echo "Removing temp folder..."
 rm -rf ~/.psytmp/
 echo "Done! Restarting jwm..."
