@@ -1,10 +1,12 @@
 echo "Welcome! DO NOT RUN THIS FILE AS ADMIN."
+echo "_______________________________________________________________________________"
 echo "To change the wallpaper, replace the .wallpaper.png file with your own"
 echo "  photo with the same name. This file is in your home folder, and is"
-echo "   hidden."
+echo "  hidden."
 echo "To change the settings, like browser defaults and etc, edit the file"
 echo "  '.jwmrc' in your home folder (It's hidden)"
 echo "Installing Xfce components is strongly recommended.(Will be propmt later)"
+echo "_______________________________________________________________________________"
 git --version 2>&1 >/dev/null
 GIT_IS_AVAILABLE=$?
 if [ $GIT_IS_AVAILABLE -eq 0 ]; then
