@@ -47,7 +47,7 @@
     <!-- Tray at the bottom. -->
     <Tray x="0" y="-1" autohide="off">
 
-        <TrayButton label="Arch Linux">root:1</TrayButton>
+        <TrayButton label="Arch Linux">root:2</TrayButton>
         <Spacer width="4"/>
         <TrayButton label="#">showdesktop</TrayButton>
         <Spacer width="4"/>
@@ -185,13 +185,16 @@
 
     <Key mask="A" key="Tab">nextstacked</Key>
     <Key mask="A" key="F4">close</Key>
-    <Key mask="A" key="#">desktop#</Key>
-    <Key mask="A" key="F1">root:1</Key>
+    <Key mask="AC" key="D">showdesktop</Key>
+    <Key mask="A" key="F1">root:2</Key>
     <Key mask="A" key="F2">window</Key>
     <Key mask="A" key="F10">maximize</Key>
-    <Key mask="A" key="Right">rdesktop</Key>
-    <Key mask="A" key="Left">ldesktop</Key>
-    <Key mask="A" key="Up">udesktop</Key>
-    <Key mask="A" key="Down">ddesktop</Key>
+    <Key mask="A" key="F11">fullscreen</Key>
+    <Key mask="AC" key="Right">rdesktop</Key>
+    <Key mask="AC" key="Left">ldesktop</Key>
+    <Key mask="AC" key="Up">udesktop</Key>
+    <Key mask="AC" key="Down">ddesktop</Key>
+    <Key mask="AC" key="T">exec: xfce4-terminal</Key>
+    <Key mask="CS" key="Escape">exec: xfce4-taskmanager</Key>
 
 </JWM>
