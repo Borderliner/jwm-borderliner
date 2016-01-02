@@ -7,7 +7,7 @@ I've included a script file (install.sh) to install this config, plus it's neces
 Clone this repo, cd into it, execute `./install.sh` to run the script (DO NOT RUN IT AS ADMIN, IF YOU DO, IT WILL INSTALL TO /root/.jwmrc)<br>
 It is <b>STRONGLY RECOMMENDED to install Xfce components</b>, which is prompt during the installation process.<br><br>
 
-#Key Bindings<br><br>
+#Key Bindings<br>
 
 Alt + Tab => Switch to next window<br>
 Alt + F4 => Close Window<br>
@@ -23,9 +23,10 @@ Alt + Ctrl + DownArrow => Switch to the Bottom Desktop<br>
 Alt + Ctrl + T => Start Terminal<br>
 Ctrl + Shift + Escape => Show Task Manager (xfce4-taskmanager)<br><br>
 
-#Keyboard Setup<br><br>
+#Keyboard Setup<br>
 
 If you want to change the keyboard layout, open the .jwmrc file and navigate to line 166 and 175. Change the `ir` to whatever you like (`ir` is Iran, I use this for myself)<br>
 If you wish to change the repeat rate, open .jwmrc file, go to line 165 and 174, change the rates there.<br><br>
+
 <a href="mailto:psyringe@protonmail.com">Psyringe<a>, 2016
 
