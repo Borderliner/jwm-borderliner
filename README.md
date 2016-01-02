@@ -13,7 +13,7 @@ Alt + Tab => Switch to next window<br>
 Alt + F4 => Close Window<br>
 Alt + Ctrl + D => Show Desktop<br>
 Alt + F1 => Show Main Menu<br>
-Alt + F2 => Show Window's Menu<br> (Should add something like `Launch Application` instead of this)
+Alt + F2 => Show Window's Menu<br> (`Launch Application` instead of this)<br>
 Alt + F10 => Maximize<br>
 Alt + F11 => Make Window Fullscreen<br>
 Alt + Ctrl + RightArrow => Switch to the Right Desktop<br>
@@ -23,5 +23,5 @@ Alt + Ctrl + DownArrow => Switch to the Bottom Desktop<br>
 Alt + Ctrl + T => Start Terminal<br>
 Ctrl + Shift + Escape => Show Task Manager (xfce4-taskmanager)<br><br>
 
-<a href="mailto:psyringe@protonmail.com">Psyringe<a>
+<a href="mailto:psyringe@protonmail.com">Psyringe<a>, 2016
 
