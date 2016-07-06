@@ -30,5 +30,5 @@ If you want to change the keyboard layout, open the .jwmrc file and navigate to 
 If you wish to change the repeat rate, open .jwmrc file, go to line 165 and 174, change the rates there.<br>
 Edit .xxkbrc to change flag settings<br><br>
 
-<a href="mailto:psyringe@protonmail.com">Psyringe<a>, 2016
+<a href="mailto:hajianpour.mr@gmail.com">Borderliner<a>, 2016
 
